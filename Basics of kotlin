@@ -1,0 +1,79 @@
+# How to define  main function and arguments in kotlin 
+fun main(args:Array<String>)
+{
+    var a = 40
+    print(a)
+    val b = 20
+    print(b)
+    b = b + 20
+    
+}
+
+# How to use var 
+fun main()
+{
+    var a = 40
+    var b : String
+    print(a)
+}
+
+# How to use val
+fun main()
+{
+    val kotlin = "hello"
+    println(kotlin)
+}
+//println(kotlin)
+
+# How to define class
+class person
+{
+    var kotlin = "hello"
+    fun displayinfo()
+    {
+        println(kotlin)
+    }
+}
+fun main()
+{
+    val person = person()
+    person.displayinfo()
+}
+
+# String interpolation with $
+fun main()
+{
+    val a = 10
+    val b = 20
+    val result = "sum of $a and $b is ${a + b}"
+    println(result)
+}
+
+# Character data type
+fun main()
+{
+    val letter: Char
+    letter = 'A'
+    print("$letter")
+    print('\n')
+    print('\$')
+    print('\\')
+}
+
+# String data type
+fun main()
+{
+    var name: String = """
+    Kishan
+    Kishan
+    Kishan
+    Kishan
+    Kishan""";
+    print(name)
+}
+
+fun main()
+{
+    val a=
+    print("Kishan\n\tKishan\n\t\tKishan\n\t\t\tKishan\n\t\t")
+}
